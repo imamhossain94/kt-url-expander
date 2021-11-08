@@ -1,10 +1,6 @@
-import java.net.HttpURLConnection
-import java.net.URL
+# Kotlin-URL-Expander
 
-fun main() {
-    println(URLExpander.expand("https://tinyurl.com/8wa5w2o"))
-}
-
+```kotlin
 object URLExpander {
     fun expand(url: String): String {
         var connection: HttpURLConnection
@@ -30,3 +26,4 @@ object URLExpander {
     }
 }
 
+```
